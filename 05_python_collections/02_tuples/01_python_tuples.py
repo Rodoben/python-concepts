@@ -42,10 +42,11 @@ print(tuple3)
 tuple4 = ("abc", 34, True, 40, "male")
 print(tuple4)
 
-# type() tuples are defined as objects with the datatype 'tuple':
+# type() -> tuples are defined as objects with the datatype 'tuple':
 mytuple = ("apple", "banana", "cherry")
 print(type(mytuple))
 
 # tuple() constructor
 thisTuple = tuple(("apple", "banana", "cherry"))
 print(thisTuple)
+
