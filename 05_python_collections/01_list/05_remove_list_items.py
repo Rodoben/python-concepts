@@ -32,3 +32,14 @@ del thisList1
 thisList = ["apple", "banana", "cherry"]
 thisList.clear()
 print(thisList)
+
+duplicateList = ["a","a","b","b","a","c","c"]
+removeduplicate = dict()
+for x in duplicateList:
+    removeduplicate[x] = True
+
+print(removeduplicate.keys())    
+
+for x in  removeduplicate.keys():
+    print(x)
+   

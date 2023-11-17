@@ -38,3 +38,13 @@ fourth = my_func(4)
 print(doubler(11))
 print(tripler(11))
 print(fourth(11))
+
+
+def palindrome(str):
+    str = str.lower()
+    for i in range(len(str)//2):
+        if str[i] != str[len(str)-1-i]:
+            return False
+    return True
+
+print(palindrome("radar"))    
